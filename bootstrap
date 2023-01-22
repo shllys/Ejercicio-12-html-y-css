@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>"Elementos de Interés en Bootstrap"</title>
+</head>
+<body>
+  <div class="container m-3">
+    <div class="bg-light rounded-3 p-5">
+      <div class="container-fluid">
+        <h1 class="display-5 fw-bold">Practicando con Bootstrap</h1>
+        <p class="col-md-8 fs-4">La practica hace el maestro, sigue adelante, practica, no importa cuantas veces se diga, tienes que dar lo mejor de ti y si te gusta pues no te rindas y cumple tus objetivos</p>
+
+        <button class="btn btn-info btn-lg"
+        data-bs-toggle="modal"
+        data-bs-target="#mensajemodal">Tu puedes</button>
+
+        <div class="modal fade" data-bs-backdrop="static"
+        id="mensajemodal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2>No te rindas</h2>
+              </div>
+              <div class="modal-body">
+                <p>Sigue Estudiando, no pares!</p>
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-outline-success" data-bs-dismiss="modal">Aprende+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="formulary m-5" style="width: 70%;">
+    <form>
+      <div class="m-3">
+        <label for="name" class="form-label">Nombre
+        </label>
+        <input id="name" type="text" class="form-control" placeholder="Nombre">
+      </div>
+      <div class="m-3">
+        <label for="phone" class="form-label">Numero
+        </label>
+        <input id="phone" type="number" class="form-control" placeholder="Telefono">
+      </div>
+      <div class="m-3">
+        <label for="message" class="form-label">Mensaje
+        </label>
+        <textarea id="message" type="textarea" class="form-control" placeholder="Mensaje"></textarea>
+        </div>
+    </form>
+  </div>
+
+  <div class="tarjeta">
+    <div class="card m-3">
+      <div class="card-header">Desarrolladora</div>
+      <div class="card-body">
+        <h4 class="card-title col-md-9">Mishelis Martinez</h4>
+        <p class="card-text col-md-9">Soy estudiante Autodidacta, procuro estudiar cuanto pueda, quiero superarme y ser de utilidad por eso quiero ganarle a mi ansiedad y ser la mejor en lo que haga.</p>
+      </div>
+      <div class="card-footer text-end">Shllygp17.8@gmail.com</div>
+    </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    
+</script>
+</html>
